@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Produtos</title>
+
+</head>
+<body>
+    <header class=" cor-fundo-cabecalho  d-flex align-items-center ">
+        <!-- div para pintar o fundo de cinza -->
+        <div class="d-flex justify-content-evenly w-100 align-items-center">
+            <!-- logo -->
+            <div>
+                <a class="d-flex" href="./index.html"><img src="../imgs/Logo.png" alt=""></a>
+            </div>
+            <!-- links -->
+            <nav class="links">
+                <span><a href="./paginas/fale-conosco.html">suporte</a></span>
+                <span><a href="./paginas/sobre-nos.html">sobre nós</a></span>
+                <span><a href="./paginas/produto.html">catálogo</a></span>
+            </nav>
+
+            <!-- barra pesquisa -->
+            <div class="barra-pesquisa">
+                <div >
+                    <div>
+                        <input type="text">           
+                    </div>
+                    <img src="../imgs/lupa.png" alt="lupa icone da barra de pesquisa">
+                </div>
+                
+            </div>
+
+            <!-- icones -->
+            <div class="icones-nav">
+                <img src="../imgs/perfil.png" alt="perfil usuario">
+                <a href="./carrinho.html"><img src="../imgs/carrinho-icone.png" alt="icone para pagina do carrinho"></a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- inicio conteudo -->
+
+    <!-- banner-1 -->
+    <main>
+        <section class="m-5">
+            <img class="w-100" src="../imgs/banner-1.png" alt="">
+        </section>
+
+    <!-- categorias -->
+        <section class="fundo-cinza my-5 py-5">
+
+            <div class="categorias d-flex justify-content-center">
+                <!-- naruto -->
+                <div class="pai-imagens-categoria d-flex flex-column">
+                    <div class="imagem-categoria">
+                        <img class="imagem-categoria" src="../imgs/imagem-itachi.png" alt="">
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-2">
+                        <div class="ornamento-categoria">
+                            <p class="mb-0">Naruto</p>
+                            <div class=""></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- One piece -->
+                <div class="pai-imagens-categoria d-flex flex-column">
+
+                    <div class="imagem-categoria">
+                        <img class="imagem-categoria imagem-one-piece" src="../imgs/imagem-one-piece.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="ornamento-categoria">
+                            <p class="mb-0">One Piece</p>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demon slayer -->
+                <div class="pai-imagens-categoria d-flex flex-column">
+                    <div class="imagem-categoria">
+                        <img class="imagem-categoria imagem-kimetsu" src="../imgs/kimetsu-categoria (4).png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <div class="ornamento-categoria">
+                            <p class="mb-0">Demon Slayer</p>
+                            <div ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- haikyuu -->
+                <div class="pai-imagens-categoria d-flex flex-column">                 
+                    <div class="imagem-categoria">
+                        <img class="imagem-categoria imagem-haikyuu" src="../imgs/haikyuu-categoria.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <div class="ornamento-categoria">
+                            <p class="mb-0">Haikyuu</p>
+                            <div ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        <!-- shoujo/shounen -->
+        <section>
+        
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="row my-5">
+
+                        <!-- shoujo -->
+                        <div class="col">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+
+                                <div class="cassosel-shoujo carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <img class="w-100" src="../imgs/shoujo-1.PNG " class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img  class="w-100" src="../imgs/shoujo-2.PNG" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="w-100" src="../imgs/shoujo-3.PNG" class="d-block w-100" alt="...">
+                                    </div>
+
+                                </div>
+
+                                <div class="legenda-shounen d-flex justify-content-center align-items-center">
+                                    <h4>SHOUJO</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- shounen -->
+                        <div class="col">
+                            
+                            <!-- carrousel imagens -->
+                            <div id="carouselExampleSlidesOnly" class="cassosel-shoujo   carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="w-100" src="../imgs/shounen-1.png" class="d-block w-100" alt="...">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="../imgs/shounen-2.png" class="d-block w-100" alt="...">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="../imgs/shounen-3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+
+                                <div class="legenda-shounen d-flex justify-content-center align-items-center">
+                                    <h4>SHOUNEN</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+          
+        </section>
+
+        <!-- SEÇÃO MAIS VENDIDOS -->
+
+        <!-- titulo -->
+        <div class="container">
+            <section class="my-5 py-3">
+                <!-- titulo -->
+                <div class="titulo-produtos my-5 text-center d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <h2>Promoções</h2>
+                    </div>  
+                </div>
+
+
+            <!-- Produtos -->
+            <div class="produtos row my-5 d-flex justify-content-center">
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <a href="./paginas/produto.html"><img src="../imgs/venda-haikyuu.png" alt=""></a>
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Haikyuu vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- AOT -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-aot.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shingeki no Kyojin vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- JJK -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-jjk.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Jujutsu no Kaisen vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+        <!-- animes por categroia / carrosel -->
+        <div class="gallery text-center">
+            <h4 class="pt-5">Categorias</h4>
+            <p>Encontre os mangas de suas categorias favoritas</p>
+            <div class="gallery-container" data-index="1">
+                <div class="gallery-item gallery-item-1">
+                    <img  src="../imgs/categoria-acao.jpeg">
+                    <div>
+                        <p alt="" >Ação</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item-2" data-index="2">
+                    <img  src="../imgs/categoria-comedia.jpeg" alt="" >
+                    <div class=>
+                        <p alt="" >Comédia</p>
+                    </div>
+                </div>
+               
+                <div class="gallery-item gallery-item-3"  data-index="3">
+                    <img  src="../imgs/categoria-esportes.jpeg" alt="">
+                    <div>
+                        <p alt="" >Esportes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item-4" data-index="4">
+                    <img  src="../imgs/categoria-misterio.jpeg" alt="" >
+                    <div>
+                        <p alt="" >Mistério</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item gallery-item-5" data-index="5">
+                    <img  src="../imgs/categoria-romance.jpeg" alt=""  >
+                    <div>
+                        <p alt="" >Romance</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+
+            <div class="gallery-controls"></div>
+        </div>
+
+        <!-- lançamentos -->
+        <div class="container">
+            <section class="my-5 py-3">
+                <!-- titulo -->
+                <div class="titulo-produtos my-5 text-center d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <h2>Promoções</h2>
+                
+                    </div>  
+                </div>
+
+
+            <!-- Produtos -->
+            <div class="produtos row my-5 d-flex justify-content-center">
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-haikyuu.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Haikyuu vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- AOT -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-aot.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shingeki no Kyojin vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- JJK -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-jjk.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Jujutsu no Kaisen vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-5">
+                <!-- titulo -->
+                <div class="titulo-produtos my-5 text-center d-flex flex-column align-items-center">
+                    <div class="d-flex">
+                        <h2 class="">Lançamentos</h2>
+                    
+                    </div>  
+                </div>
+
+
+            <!-- Produtos -->
+            <div class="produtos row my-5 d-flex justify-content-center">
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-haikyuu.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Haikyuu vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- AOT -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-aot.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shingeki no Kyojin vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- JJK -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-jjk.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Jujutsu no Kaisen vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="borda-produto col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+
+                    <!-- haikyuu -->
+                    <div class="col-2 d-flex flex-column align-items-center">
+                        <div >
+                            <img src="../imgs/venda-valkirian.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <h5 class="m-2 text-center">Shummatsu no Valkirian vol 1</h5>
+                            <p class="preco-produto text-center">R$28,40</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- rodape -->
+    <footer class=" py-5">
+        <div class="container">
+            <div class="row">
+                <!-- departamentos -->
+                <div class="col">
+                    <h4>Departamentos</h4>
+                    <ul class="p-0">
+                        <li>
+                            <a href="./index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="./paginas/catalogo.html">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="./paginas/sobre-nos.html">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="./paginas/fale-conosco.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- redes sociais -->
+                <div class="redes-sociais col">
+                    <h4>Redes Sociais</h4>
+                    <div class="d-flex align-items-center">
+                        <img src="../imgs/logo-instagram.svg" alt="">
+                        <p class="mb-0">Instagram</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../imgs/logo-twitter.svg" alt="">
+                        <p class="mb-0">Twitter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer >
+<script src="/script.js"></script>
+</body>
+</html>

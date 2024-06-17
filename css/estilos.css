@@ -1,0 +1,655 @@
+
+/* reset */
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: #09252C;
+}
+
+body{
+    background-color:  #F5F5F5 ;
+}
+
+input{
+    /* border: none; */
+}
+
+button{
+    border: 0;
+}
+/* nav-bar */
+.cor-fundo-cabecalho {
+    background-color: #7CBCBC;
+    height: 80px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    margin-left: 175px;
+}
+
+.barra-pesquisa div{
+    display: flex;
+}
+.barra-pesquisa img {
+    position: absolute;
+}
+
+.barra-pesquisa input{
+    border: 0 none;
+    background-color: #EFEFEF;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+}
+.barra-pesquisa img{
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.icones-nav img {
+    margin-left: 20px;
+    
+}
+
+.links span {
+    margin-left: 20px;
+    font-family: "Amiko";
+}
+
+.links a:hover {
+    color: #e8ece2;
+}
+
+.cor-cinza-fundo{
+    background-color: #F5F5F5;
+}
+
+/* pagina produtos */
+
+
+.imagem-produto {
+    max-width: 300px;
+}
+
+.avaliacao {
+    max-width: 140px;
+}
+
+.informacoes-produto div:nth-child(2){
+    color: #061F1F;
+}
+
+.informacoes-produto div:nth-child(3){
+    color: #136060;
+}
+
+.quantidade {
+    font-family: 'Karla';
+}
+
+.campo-texto-borda {
+    border: none;
+    border-radius: 5px;
+    background-color: #E5E7ED;
+    width: 40px;
+    height: 25px;
+}
+
+.botoes-pagina-produto button{
+    width: 25%;
+    border-radius: 10px;
+    font-family: 'Karla';
+    height: 45px;
+    height: 45px;
+}
+
+
+.botao-comprar-agora {
+    background-color: #128181;
+    color: #fff;
+    font-weight: 400;
+}
+
+.botao-adicionar-carrinho{
+    font-weight: 500;
+    border: #000 solid 1px;
+  
+
+
+}
+.botao-calcular {
+    background-color: #1A1C2E;
+    border-radius: 8px;
+    color: #fff;
+    
+}
+
+/* pagina formulario fizalizacao da compra */
+
+.formulario {
+    background-color: #fdfdfd ;
+    padding: 30px;
+    border-radius: 15px;
+    width: 60%;
+    align-self: center;
+}
+.titulo-formulario {
+    margin-left: 20.2%;
+    color: #128080;
+}
+
+.campos-formulario-pagamento input{
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color: #e3e2e2;
+    height: 35px;
+}
+
+.botao-fazer-pedido button{
+    background-color: #128181;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.botao-fazer-pedido a {
+    color: #fff;
+}
+
+/* carrinho */
+
+.quantidade-carrinho {
+    width: 70px;
+    border: none;
+    background-color: #e3e2e2;
+    border-radius: 5px;
+}
+
+.botao-quantidade-carrinho {
+    border: 1 solid #000;
+}
+
+.total-produtos-carrinho {
+    background-color: #fdfdfd;
+    border-radius: 15px;
+}
+
+.imagem-produto-carrinho {
+    width: 75%;
+}
+
+.estados select{
+    margin-top: 10px;
+}
+/* pagina inicial */
+
+.imagem-categoria {
+
+}
+
+.pai-imagens-categoria {
+
+}
+
+.imagem-categoria {
+
+}
+
+.ornamento-categoria div{
+    border-bottom: #7CBCBC solid 3px ;
+    width: 22px;
+    height: 3px;
+    border-radius: 5px;
+}
+
+.ornamento-categoria p {
+    font-family: 'Zilla Slab';
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+.categorias {
+    column-gap: 105px;
+}
+
+.fundo-cinza {
+   background-color: #eee; 
+}
+
+.legenda-shounen {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute; 
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+ 
+}
+.legenda-shounen h4 {
+font-size: 40px;
+position: relative;
+bottom: 5px;
+
+}
+.cassosel-shoujo {
+    position: relative;
+}
+
+/* titulos */
+
+.titulo-produtos h2{
+    color: #128181;
+}
+
+
+/* secao mais vendidos */
+.secao-mais-vendidos div h2{
+    font-size: 40px;
+
+}
+.ornamento-titulo {
+    border-bottom: 2px solid #404B9C;
+}
+
+.preco-produto {
+    font-weight: bold;
+    font-size: 20px;
+}
+.borda-produto {
+    border-right: 1px solid #d0cccc;
+    padding-right: 15px;
+
+}
+
+/* carrosel categorias de mangas  */
+
+.gallery {
+    width: 100%;
+    background-color: #E6E6E6;
+    font-family: 'karla';
+    margin-top: 90px;
+}
+
+.gallery h4 {
+    color: #128080;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.gallery p{
+    color: #5E6C6C;
+    font-size: 23px;
+}
+
+.gallery-container {
+
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+  
+}
+
+.gallery-item-1 div, .gallery-item-2 div , .gallery-item-4 div, .gallery-item-5 div {
+    display: none;
+}
+
+.gallery-item-1, .gallery-item-2 , .gallery-item-4, .gallery-item-5 {
+}
+
+.gallery-container div div{
+    background-color: #128080;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.gallery-container div div p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.gallery-item{
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 330px;
+    z-index: 0;
+    /* border-radius: 15px; */
+    background-size: contain;
+}
+
+.gallery-item-1 {
+    left: 2%;
+    opacity: .4;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 280px;
+}
+
+.gallery-item-1 img, .gallery-item-5 img {
+    width: 180px;
+}
+
+.gallery-item-2, .gallery-item-4 {
+    height: 290px;
+    opacity: 0.85;
+    width: 200px;
+    z-index: 1;
+}
+
+.gallery-item-2{
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-2 img, .gallery-item-4 img {
+    width: 200px;
+}
+
+.gallery-item-3 {
+    box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.15);
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    z-index: 2;
+}
+
+.gallery-item-3 img  {
+    width: 220px;
+}
+
+.gallery-item-4{
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-5 {
+    left: 98%;
+    opacity: .4;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 280px;
+}
+
+.gallery-controls{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+}
+
+.gallery-controls button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+
+.gallery-controls-buttons:focus {
+    outline: none;
+}
+
+.gallery-controls-previous{
+    position: relative;
+}
+
+.gallery-controls-previous::before {
+    border: solid #000;
+    border-width: 0 4px 4px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    left: -30px;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    transform: rotate(135deg) translateY(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+.gallery-controls-previous:hover::before{
+    left: -40px
+}
+.gallery-controls-next{
+    position: relative;
+}
+
+.gallery-controls-next::before {
+    border: solid #000;
+    border-width: 0 4px 4px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    right: -30px;
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: right 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-next:hover::before {
+    right: -40px;
+}
+
+.gallery-nav{
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery-nav li {
+    background-color: #ccc;
+    /* border-radius: 50%; */
+    height: 10px;
+    margin: 0 16px;
+    width: 10px;
+}
+
+.gallery-nav li.gallery-item-selected{
+    background: #555;
+}
+
+/* rodape  */
+
+footer{
+    margin-top: 120px;
+    color: #fff;
+    font-family: "Karla";
+    padding-top: 135px;
+    padding-bottom: 55px;
+    background-color:#81B7B0;
+    ;
+}
+
+footer a {
+    color: #E1E2E2;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #4d5252;
+}
+
+footer h4{
+    color: #fff;
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 15px;
+}
+footer li {
+    margin-top: 10px
+}
+.redes-sociais div {
+    margin-top: 15px;
+}
+
+.redes-sociais div img{
+    width: 10%;
+}
+
+.redes-sociais div p{
+    margin-left: 15px
+
+}
+
+
+/* pagina produtos */
+
+.produtos-catalogo {
+    column-gap: 70px;
+}
+
+.colocar-preco input{
+    width: 100px;
+    height: 28px;
+    margin-left: 20px;
+}
+
+
+/* sobre nos */
+
+.titulo-sobre-nos {
+    font-weight: bold;
+    color: #193F3F;
+}
+
+.sobre-nos-fundo-verde {
+    width: 640px;
+    height: 105%;
+    background-color: #D0DBDE;
+    padding: 35px;
+    transform: rotate(5deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.texto-sobre-nos {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 600px;
+    font-size: 22px;
+    font-family: "Zilla Slab";
+    padding: 35px;
+
+}
+
+/* fale conosco */
+
+.aba-mensagem-fale-conosco {
+    background-color: #fff;
+    width: 800px;
+    margin: auto;
+    padding: 28px;
+    border-radius: 5px;
+}
+
+.aba-mensagem-fale-conosco textarea{
+    background-color: #E7E2E2;
+    border: none;
+    height: 100%;
+}
+
+.aba-mensagem-fale-conosco input{
+    background-color: #E7E2E2;
+    border: none;
+    width: 100%;
+
+}
+
+.lado-direito{}
+
+.botao-enviar-mensagem {
+    background-color: #128080;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div-formulario-mensagem{
+    width: 85%;
+}
+.titulo-fale-conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 63px;
+}
+
+.titulo-fale-conosco h2{
+    margin-bottom: 30px;
+    color: #193F3F;
+}
+
+.div-mensagem {
+    height: 80%;
+}
+
+.fundo-fale-conosco {
+    background-color: #81B7B0;
+    width: 100%;
+    height: 495px;
+    position: absolute;
+    top: 445px;
+    z-index: -1;
+}
+
+/* detalhe link selecionado */
+
+.link-selecionado {
+    color: #fff;
+}
+
+
+.suporte-selecionado {
+     left: 226px;
+}
+
+.sobre-nos-selecionado {
+    left: 466px;
+    color: #fff;
+}
+
+.sobre-nos-selecionado a {
+    color: #fff;
+}
+
+
+.categorias.d-flex {
+    flex-direction: row;
+}

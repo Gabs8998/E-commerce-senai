@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <title>Produtos</title>
+
+
+    
+</head>
+<body>
+    <header class=" cor-fundo-cabecalho  d-flex align-items-center ">
+        <!-- div para pintar o fundo de cinza -->
+        <div class="d-flex justify-content-evenly w-100 align-items-center">
+            <!-- logo -->
+            <div>
+                <a class="d-flex" href="../index.html"><img src="../imgs/Logo.png" alt=""></a>
+            </div>
+            <!-- links -->
+            <div class="links">
+                <span><a  class="link-selecionado suporte-selecionado" href="./fale-conosco.html">suporte</a></span>
+                <span><a href="./sobre-nos.html">sobre nós</a></span>
+                <span><a href="./catalogo.html">catálogo</a></span>
+            </div>
+
+            <!-- barra pesquisa -->
+            <div class="barra-pesquisa">
+                <div >
+                    <div>
+                        <input type="text">           
+                    </div>
+                    <img src="../imgs/lupa.png" alt="lupa icone da barra de pesquisa">
+                </div>
+                
+            </div>
+
+            <!-- icones -->
+            <div class="icones-nav">
+                <img src="../imgs/perfil.png" alt="perfil usuario">
+                <a href="./carrinho.html"><img src="../imgs/carrinho-icone.png" alt="icone para pagina do carrinho"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="titulo-fale-conosco">
+            <h2 class="">Fale-conosco</h2>
+            <p>Entre em contato conosco para duvidas ou suporte para quaisquer problemas </p>
+        </div>
+
+        <div class="aba-mensagem-fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="div-mensagem mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label mb-2">Mensagem:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex align-items-center flex-column">
+                        <div class="div-formulario-mensagem">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email: </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nome: </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
+                        <div> <button type="button" class="botao-enviar-mensagem px-5 my-3">Enviar</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fundo-fale-conosco">
+             <!-- rodape -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- departamentos -->
+                <div class="col">
+                    <h4>Departamentos</h4>
+                    <ul class="p-0">
+                        <li>
+                            <a href="./index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="./catalogo.html">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="./sobre-nos.html">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="./fale-conosco.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- redes sociais -->
+                <div class="redes-sociais col">
+                    <h4>Redes Sociais</h4>
+                    <div class="d-flex align-items-center">
+                        <img src="../imgs/logo-instagram.svg" alt="">
+                        <p class="mb-0">Instagram</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../imgs/logo-twitter.svg" alt="">
+                        <p class="mb-0">Twitter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer >
+        </div>
+    </main>
+
+</body>
+</html>
